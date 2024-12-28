@@ -1,0 +1,9 @@
+num=int(input("Enter your number:"))
+
+square=num**2
+
+if square//10==num:
+        print(num,"is automorphic")
+
+else:
+    print(num,"is not an automorphic")
