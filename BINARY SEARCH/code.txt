@@ -1,0 +1,26 @@
+def binary_search(array,key):
+    left=0
+    right=len(array)-1
+    while left<=right:
+        mid=(left+right)//2
+        if array[mid]==key:
+            return mid
+        elif array[mid]>key:
+            right=mid-1
+        else:
+            left=mid+1
+
+
+array=[]
+x= int(input("Enter the length of array:"))
+i=0
+while i<x:
+    ele =int(input("Enter the elements:"))
+    array.append(ele)
+    i+=1
+
+print(array)
+
+key=int(input("Enter the element to be searched:"))
+result=binary_search(array,key)
+print("Element found at",result)
