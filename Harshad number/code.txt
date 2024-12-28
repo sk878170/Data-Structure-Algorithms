@@ -1,0 +1,14 @@
+num=int(input("Enter your number:"))
+p=num
+sum1=0
+arr=[]
+while(num>0):
+    x=num%10
+    arr.append(x)
+    num//=10
+sum1=sum(arr)
+
+if (p%sum1==0):
+    print(p,"is a harshad number")
+else:
+    print(p,"is not a harshad number")
