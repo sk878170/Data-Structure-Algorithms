@@ -1,2 +1,2 @@
 # Data-Structure-Algorithms
-This folder contains my DSA questions and their solutiuons
+This repository contains DSA questions and their solutiuons.
