@@ -1,0 +1,30 @@
+Here are the 25 algorithms you need to practice:
+
+SEARCHING:-
+1) Linear SEARCHING
+2)Binary search 
+3)Depthfirst search 
+4)Breath first search
+
+SORTING 1)insertion sort
+2) heap sort
+3) selection sort
+4) merge sort
+5) quicksort 
+6) counting sort
+
+GRAPH:- 
+1)Kruskal algorithm
+2) djikstra
+3) Bellman Ford algorithm
+4) Floyd Warshall algorithm
+5) topological sort algorithm
+6) flood fill algorithm
+7) lee algorithm.
+
+ARRAY:-
+1)Kadanes algorithm
+2) Floyds cycle detection 
+3) KMP algorithm
+4) Quick selection algorithm
+5) Boyer more algorithm
